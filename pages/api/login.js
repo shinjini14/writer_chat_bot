@@ -4,6 +4,7 @@ import { Pool } from "pg";
 
 // Create your PostgreSQL pool.
 // Make sure you have your DATABASE_URL set in your environment variables.
+
 const pool = new Pool({
     user: 'postgres',
     host: '34.93.195.0',
