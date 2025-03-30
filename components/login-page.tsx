@@ -29,7 +29,7 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
   const [error, setError] = useState("")
 
   const handleLogin = async () => {
-    const response = await fetch("http://localhost:8080/api/login", {
+    const response = await fetch("/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
